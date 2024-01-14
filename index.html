@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Play with cats</h1>
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<button type="button" class="btn" data-cat="kapa">
+						<img src="./img/kapa.jpg" alt="" decoding="async" loading="lazy">
+					</button>
+				</div>
+				<div class="swiper-slide">
+					<button type="button" class="btn" data-cat="sonya">
+						<img src="./img/sonya.jpg" alt="" decoding="async" loading="lazy">
+					</button>
+				</div>
+				<div class="swiper-slide">
+					<button type="button" class="btn" data-cat="marusya">
+						<img src="./img/marusya.jpg" alt="" decoding="async" loading="lazy">
+					</button>
+				</div>
+				<div class="swiper-slide">
+					<button type="button" class="btn" data-cat="johnny">
+						<img src="./img/johnny.jpg" alt="" decoding="async" loading="lazy">
+					</button>
+				</div>
+			</div>
+			<button class="arrow swiper-button-prev">
+				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 14" fill="none">
+					<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 1 1.3 6.326a.91.91 0 0 0 0 1.348L7 13"/>
+				</svg>
+			</button>
+			<button class="arrow swiper-button-next">
+				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 14" fill="none">
+					<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1"/>
+				</svg>
+			</button>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
