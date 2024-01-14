@@ -1,8 +1,8 @@
 const files = {
-	kapa: new Audio('../audio/kapa.mp3'),
-	sonya: new Audio('../audio/sonya.mp3'),
-	marusya: new Audio('../audio/marusya.mp3'),
-	johnny: new Audio('../audio/johnny.mp3')
+	kapa: new Audio('audio/kapa.mp3'),
+	sonya: new Audio('audio/sonya.mp3'),
+	marusya: new Audio('audio/marusya.mp3'),
+	johnny: new Audio('audio/johnny.mp3')
 }
 
 const handleButtons = () => {
